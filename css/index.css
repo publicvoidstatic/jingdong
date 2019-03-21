@@ -1,0 +1,144 @@
+京东头部开始*/
+li{
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.J-event{
+	height: 80px;
+	background-color: #000;
+}
+.J-event a{
+	height: 80px;
+	display:block;
+	background:url(../images/header.jpg) no-repeat;
+	position: relative;
+}
+.J-event a i{
+	font-family: 'icomoon';
+	position:absolute;
+	top:5px;
+	right: 0; 
+	font-style: normal;
+	color: #ccc;
+}
+
+/*京东头部结束*/
+
+
+/*快捷导航栏开始*/
+.shurtcut{
+	background-color: #E3E4E5;
+	height: 30px;
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 12px;
+	color: #9D9D9D;
+	line-height: 30px;
+}
+.shurtcut .location{
+	font-size: 14px;
+	font-family: 'icomoon';
+	font-style: normal;
+	color: #f10215;
+}
+.shurtcut ul{
+	list-style: none;
+	/*line-height: 30px;因为左右两个ul都要垂直居中，所以在他父亲身上加，因为行高会继承*/
+}
+.shurtcut a{
+	font-size: 12px;
+	color: #9D9D9D;
+	text-decoration:none;
+}
+.shurtcut a:hover{
+	color: #f10215;
+}
+/*.shurtcut .fr.freeregis{
+	color: #f10215;
+}*/
+.shurtcut .fl li{
+	float: left;
+	margin-left: 200px;
+	vertical-align: middle;
+	height: 30px;
+}
+.shurtcut .fr li{
+	float: left;
+	/*margin-right: 15px;*/
+	/*vertical-align: middle;*/
+}
+/*设置每个导航菜单中间的小竖线，给宽高*/
+.spacer{
+	width: 1px;
+	height: 10px; 
+	background-color: #ccc;
+	margin: 10px 10px 0;
+}
+/*给每个li增加15像素的距离来放倒三角*/
+.dropdown{
+	padding-right: 15px;
+	position: relative;
+	
+}
+/*给每个li下边的倒三角设置正确的字体样式，并且去除倾斜效果*/
+.dropdown i{
+	font-family: 'icomoon';
+	font-style: normal;
+	font-size: 18px;
+	/*vertical-align: bottom;*/
+	position: absolute;
+	right: -2px;
+	top: -2px;
+}
+.erweima{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ccc;
+	padding: 3px;
+	position: absolute;
+	top: 31px;
+	left: -10px;
+
+}
+
+/*快捷导航栏结束
+
+
+/*header开始*/
+.header{
+	height: 140px;
+}
+.inner{
+	height: 140px;
+	/*background-color: pink;*/
+	position: relative;
+}
+.logo{
+	width: 190px;
+	height: 170px;
+	/*background-color:skyblue;*/
+	
+	position: absolute;
+	top: -30px;
+	left: 0;
+	box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+	
+}
+.logo h1{
+
+	margin: 0;
+}
+.logo a{
+	
+	width: 190px;
+	height:170px;
+	display: block;
+	overflow: hidden;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -999px;
+}
+
+/*header结束*/
