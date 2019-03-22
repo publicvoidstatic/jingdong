@@ -1,10 +1,17 @@
 京东头部开始*/
+.body{
+	background-color: #f0f3ef;
+}
 li{
 	list-style: none;
 }
 ul{
 	margin: 0;
 	padding: 0;
+}
+input,button{
+	padding: 0;
+	border: 0;
 }
 
 .J-event{
@@ -119,7 +126,7 @@ ul{
 .logo{
 	width: 190px;
 	height: 170px;
-	/*background-color:skyblue;*/
+	/*background-color: purple;*/
 	
 	position: absolute;
 	top: -30px;
@@ -139,6 +146,56 @@ ul{
 	overflow: hidden;
 	background: url(../images/logo.png) no-repeat;
 	text-indent: -999px;
+}
+
+/*搜索栏*/
+.search{
+	width:550px;
+	height:35px;
+	position: absolute;
+	top: 25px;
+	/*padding-left: 5px;*/
+	left: 320px;
+	background-color: purple;
+
+}
+
+.search input{
+	width: 493px;
+	height: 33px;
+	border: 1px solid #f10215;
+	padding-left: 5px;
+	outline:none;
+	float: left;
+}
+.search button{
+	width: 50px;
+	height: 35px;
+	float: left;
+	cursor: pointer; 
+	outline: none;
+	background-color: #f10215;
+}
+.search button i{
+	font-family: 'icomoon';
+	font-style: normal;
+	font-size: 16px;
+	color: #fff;
+	border: 0;
+}
+
+.search em{
+	position: absolute;
+	width: 19px;
+	height: 15px;
+	top: 10px;
+	right: 70px;
+	background-color: skyblue;
+	background: url(../images/sprite-search.png);
+}
+
+.search em:hover{
+	background-position: -30px 0px;
 }
 
 /*header结束*/
