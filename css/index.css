@@ -214,6 +214,7 @@ a{
 	/*text-decoration: none;*/
 	font-size: 13px;
 	color: #999999;
+	/*display: block;*/
 }
 .hotwords a:hover{
 	color: #f10215;
@@ -231,6 +232,7 @@ a{
 	text-align: center;
 	line-height: 33px;
 	font-size: 14px;
+	/*display: block;*/
 }
 .shoppingcar i{
 	font-family: 'icomoon';
@@ -238,6 +240,46 @@ a{
 	font-size: 14px;
 	margin-right: 5px;
 
+}
+.shoppingcar s{
+	/*width: 20px;/*这里的s是一个行内块元素，不需要给宽度，默认会和内容的宽度一致*/
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	position: absolute;
+	top: 5px;
+	left: 150px;
+	border-radius: 7px;
+	text-decoration: none;
+	color:#fff;
+	background-color: #f10215;
+}
+.computer{
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+
+.navitem{
+	position: absolute;
+	left: 200px;
+	bottom: 10px;
+}
+.navitem ul{
+	float: left;
+}
+.navitem ul li{
+	float: left;
+	margin-left: 25px;
+}
+.navitem ul li a{
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	color: #333;
+}
+.navitem ul li a:hover{
+   color: #f10215;
 }
 
 /*header结束*/
