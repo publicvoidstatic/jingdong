@@ -152,6 +152,7 @@ a{
 	top: -30px;
 	left: 0;
 	box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+	border-bottom: 
 	
 }
 .logo h1{
@@ -305,7 +306,220 @@ a{
 }
 
 /*header结束*/
+/*轮播图部分开始*/
+.jd{
+	/*height: 480px;*/
+	/*background-color: pink;*/
+	position: relative;
+}
+.jd-inner{
+	height: 480px;
+	/*background-color: skyblue;*/
+	position: relative;
+	z-index: 1;
+	
+}
+.jd-inner .col1{
+	height: 465px;
+	width: 190px;
+	background-color: #6e6568;
+	float: left;
+	padding-top: 15px;
+	border-top: 1px solid #727272;
+	/*color: #fff;*/
+}
+.jd-inner .col1 li{
+   
+   padding-left: 10px;
+   height: 28px;
+   line-height: 28px;
+   
+}
+.jd-inner .col1 li a{
+   color: #fff;
+   font-size: 14px;
+}
 
+.jd-inner .col1 li:hover{
+	background-color: #999395;
+}
+
+.jd-inner .col2{
+	height: 480px;
+	width: 790px;
+	/*background-color: purple;*/
+	float: left;
+	margin-left: 10px;
+}
+
+.jd-inner .col2-top{
+	height: 340px;
+	/*background-color: pink;*/
+	margin-bottom: 10px;
+	position: relative;
+
+}
+.jd-inner .col2-bottom div{
+	height: 130px;
+	width: 390px;
+    float: left;
+}
+.jd-inner .col2-bottom div img{
+	width: 100%;
+}
+.jd-inner .col2-bottom .firstimg{
+	margin-right: 10px;
+}
+
+/*.arrow a{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	background-color: #6e6568;
+	opacity: 0.3;
+}*/
+
+.arrow .arrow-l{
+	position: absolute;
+	width: 30px;
+	height: 60px;
+	background-color: #6e6568;
+	opacity: 0.3;
+	top: 50%;
+	left: 0;
+	margin-top: -30px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+}
+.arrow .arrow-r{
+	position: absolute;
+	width: 30px;
+	height: 60px;
+	background-color: #6e6568;
+	opacity: 0.3;
+	top: 50%;
+	right: 0;
+	top: 50%;
+	right: 0;
+	margin-top: -30px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+}
+
+.jd-inner .col3{
+	height: 480px;
+	width: 190px;
+	/*background-color: blue;*/
+	float: right;
+}
+.user{
+	height: 115px;
+	/*background-color: pink;*/
+}
+.userinfo{
+	height: 40px;
+	padding-left: 75px;
+	font-size: 12px;
+	color: #747474;
+	line-height: 22px;
+	position: relative;
+
+}
+
+.userinfo .touxiang{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+	
+}
+.userinfo .touxiang img{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.userprofit{
+	text-align: center;
+	margin-top: 30px;
+}
+.userprofit .xinrenfuli{
+	display: inline-block;
+	width:70px;
+	height:20px;
+	font-size: 14px;
+	border: 1px solid #f10215;
+	text-align: center;
+	line-height: 20px;
+	color: #f10215;
+}
+.userprofit .plus{
+	display: inline-block;
+	width:70px;
+	height:20px;
+	font-size: 14px;
+	border: 1px solid #f10215;
+	text-align: center;
+	line-height: 20px;
+	color: #f10215;
+}
+.userinfo a{
+	font-size: 12px;
+	color: #747474;
+}
+.promotion{
+	height: 149px;
+	/*background-color:skyblue;*/
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 15px 0;
+}
+.promotion-top{
+	border-bottom: 1px solid #ccc;
+	padding: 3px 0;
+	position: relative;
+}
+.promotion-top a{
+	margin-left: 5px;
+}
+.cuxiao{
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+}
+
+.gengduo{
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+.promotion-top a{
+	font-size: 14px;
+	color: #747474;
+}
+.news{
+	height: 210px;
+	background-color:green;
+}
+.ad{
+	height: 480px;
+	background: url(../images/bg.png) no-repeat top center;
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+}
+.ad a{
+	display: block;
+	width: 100%;
+	height:100%;
+}
+
+
+
+
+/*轮播图部分结束*/
 /*服务模块开始*/
 .footer{
 	height: 560px;
