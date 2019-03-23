@@ -334,7 +334,7 @@ a{
 	/*background-color: pink;*/
 	position: relative;
 }
-.service-unit h5,p{
+.service-unit h5{
 	float: left;
 }
 
@@ -415,6 +415,65 @@ a{
 	text-align: right;
 	padding-right: 20px;
 }
+
+/*版权部分开始*/
+.copyright{
+	border-top: 1px solid #ccc;
+	padding-top: 15px;/*因为这个盒子没有高度，所以padding不用减去高度*/
+
+}
+.links {
+	text-align: center;
+}
+.links a{
+	color: #727272;
+	font-size: 12px;
+}
+.links span{
+	color: #ccc;
+	font-size: 12px;
+}
+.c-info {
+   text-align: center;
+   font-size: 12px;
+   color: #9e9e9b;
+   line-height: 20px;
+   margin-top: 10px;
+}
+.tupian a{
+   width: 103px;
+   height: 32px;
+   display:inline-block;
+   background: url(../images/ico_footer.png) no-repeat;
+ 
+}
+.tupian {
+	text-align: center;
+	margin-top: 20px;
+}
+.tupian .jingying{
+	background-position: -103px -151px;
+
+}
+.tupian .kexin{
+	background-position: 0 -183px;
+	
+}
+.tupian .chengxin{
+	background-position: -103px -183px;
+	
+}
+.tupian .wangluo{
+	background-position: 0 -217px;
+	
+}
+.tupian .zhongguohulianwang{
+	background-position: -103px -218px;
+	
+}
+
+
+/*版权部分结束*/
 
 /*服务模块结束*/
 
